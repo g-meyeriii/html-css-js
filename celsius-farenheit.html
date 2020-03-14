@@ -1,4 +1,4 @@
-<simple-calculator2.html>
+<celsius-farenheit converter>
 <index.html>
 <DOCTYPE html>
 <html lang="en">
@@ -15,20 +15,21 @@
 </head> 
     <body>
         <div>
-           <p><input id="total2" type="number" 
-            value="0" size="10" disabled>
+            <label>Input Celsius</label>
+           <p><input id="cel" type="number" 
+            value="0" size="10" placeholder="Temp Celcius">
+
         </p> 
-      
-            <input id="num1" type="number" 
-            value="0" size="10"> 
+            <label>Return Farneheit</label>
+            
+            <input id="far" type="number" 
+            value="0" size="10" placeholder="Temp Farenheit"> 
         
-        <button onclick="add()"
-        class="btn btn-primary">Add button</button>
-        <button onclick="clr()"
+        <button onclick="convert()"
+        class="btn btn-primary">Conversion C/F</button>
+        <button onclick="convert2()"
+        class="btn btn-primary">Conversion F/C</button>
+        <button onclick="reset()"
         class="btn btn-primary">Clear</button>
 
         </div>
-
-
-
-    </body> 
