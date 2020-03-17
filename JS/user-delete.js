@@ -22,6 +22,6 @@ $ ().ready (() => {
             console.log(res);
     })
         .fail((err) => {
-            console.error("ERROR", err);
+            console.error("ERROR:", err);
     });
 });

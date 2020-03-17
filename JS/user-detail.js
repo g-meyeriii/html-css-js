@@ -12,8 +12,7 @@ $().ready( ()=> {
         })
         .fail((err ) => { 
             console.error("ERROR:", err);
-        })
-
+        });
     console.log("After getJSON call.");
 });
 const display = () => {
